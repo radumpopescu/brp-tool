@@ -1,0 +1,12 @@
+version: '3'
+services:
+  brp:
+    build:
+      context: .
+    volumes:
+      - "./:/app"
+    ports:
+      - "3339:3000"
+    working_dir: /app
+    restart: always
+    command: "node /app/app.js"
