@@ -22,20 +22,27 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 const diffObj = new diff();
 
-// const disabled = false;
-const disabled = true;
+const disabled = false;
+// const disabled = true;
 
 (async () => {
-  const scraper = new Scraper();
-  scraper.service = process.env.SERVICE_ONE;
-  scraper.cert = fs.readFileSync(`cert/${scraper.service}.cert`);
-  scraper.key = fs.readFileSync(`cert/${scraper.service}.decrypt.key`);
-  await scraper.initialize();
+  const scraperOne = new Scraper();
+  scraperOne.service = process.env.SERVICE_ONE;
+  scraperOne.cert = fs.readFileSync(`cert/${scraperOne.service}.cert`);
+  scraperOne.key = fs.readFileSync(`cert/${scraperOne.service}.decrypt.key`);
+  await scraperOne.initialize();
+
+  const scraperTwo = new Scraper();
+  scraperTwo.service = process.env.SERVICE_TWO;
+  scraperTwo.cert = fs.readFileSync(`cert/${scraperTwo.service}.cert`);
+  scraperTwo.key = fs.readFileSync(`cert/${scraperTwo.service}.decrypt.key`);
+  await scraperTwo.initialize();
 
   schedule.scheduleJob(process.env.CRON_SCRAPE, async () => {
     if (disabled) return;
     console.log("Running", new Date());
-    await scraper.scrape();
+    await scraperOne.scrape();
+    await scraperTwo.scrape();
   });
   schedule.scheduleJob(process.env.CRON_CHECK, async () => {
     if (disabled) return;

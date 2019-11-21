@@ -15,6 +15,8 @@ class Scraper {
     async initialize() {
         console.log(`Initialising ${this.service}`);
 
+        this.jar = request.jar();
+
         this.browser = await puppeteer.launch({
             // headless: false,
             args: ['--no-sandbox'],
@@ -33,7 +35,7 @@ class Scraper {
                 body: interceptedRequest.postData(),
                 cert: this.cert,
                 key: this.key,
-                jar: true,
+                jar: this.jar,
             }
 
             // Fire off the request manually (example is using using 'request' lib)
@@ -179,7 +181,7 @@ class Scraper {
                     request({
                         cert: this.cert,
                         key: this.key,
-                        jar: true,
+                        jar: this.jar,
                         uri: f.fileUrl,
                         encoding: null,
                         gzim: false,
