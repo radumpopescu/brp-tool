@@ -1,16 +1,13 @@
 const File = require('../models/file')
 
 class diff {
-    constructor() {
-    }
-
-    check() {
+    check(service) {
         return new Promise((resolve, reject) => {
-            File.getLastDates(process.env.SERVICE_ONE, 2).then(dates => {
+            File.getLastDates(service, 2).then(dates => {
                 dates = dates.map(d => d.date);
 
                 const fileVersions = {};
-                File.getFilesFromDates(process.env.SERVICE_ONE, dates)
+                File.getFilesFromDates(service, dates)
                     .then((files) => {
                         files.forEach(file => {
                             if (file.date in fileVersions) {

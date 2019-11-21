@@ -22,8 +22,20 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 const diffObj = new diff();
 
-const disabled = false;
-// const disabled = true;
+const disabledScrape = false;
+// const disabledScrape = true;
+
+const disabledCheck = false;
+// const disabledCheck = true;
+
+const reflect = (promise) => {
+  return promise.then(() => {
+    return [];
+  },
+    (errors) => {
+      return errors;
+    });
+}
 
 (async () => {
   const scraperOne = new Scraper();
@@ -39,27 +51,34 @@ const disabled = false;
   await scraperTwo.initialize();
 
   schedule.scheduleJob(process.env.CRON_SCRAPE, async () => {
-    if (disabled) return;
+    if (disabledScrape) return;
     console.log("Running", new Date());
     await scraperOne.scrape();
     await scraperTwo.scrape();
   });
   schedule.scheduleJob(process.env.CRON_CHECK, async () => {
-    if (disabled) return;
+    if (disabledCheck) return;
     console.log("Checking", new Date());
-    diffObj.check().then(() => {
-      console.log('ok');
-    }).catch((err) => {
-      console.log('err', JSON.stringify(err));
-      request.post(process.env.NOTIFY_URL,
-        {
-          form: {
-            theAnswerToLifeTheUniverseAndEverything: 42,
-            errors: err,
-          }
-        }, (err, res, body) => {
-          console.log(body);
-        })
+
+    Promise.all([
+      diffObj.check(process.env.SERVICE_TWO),
+      diffObj.check(process.env.SERVICE_ONE),
+    ].map(reflect)).then((results) => {
+      // Magic flattening of the array of arrays
+      const errors = [].concat.apply([], results);
+      if (errors.length) {
+        console.log('Differences found', JSON.stringify(errors));
+        request.post(process.env.NOTIFY_URL,
+          {
+            form: {
+              theAnswerToLifeTheUniverseAndEverything: 42,
+              errors,
+            }
+          }, (err, res, body) => {
+            console.log(body);
+          })
+      }
+      console.log('All good')
     })
   });
 })();
