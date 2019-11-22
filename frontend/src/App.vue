@@ -45,7 +45,7 @@
           <th class="border border-black"></th>
         </tr>
         <tr v-for="i in 24" :key="i">
-          <td>{{ `${i-1}`.padStart(2,'0') }}</td>
+          <td>{{ i }}</td>
           <template v-for="file in currentFiles">
             <td 
               v-for="(lineName, index) in Object.keys(file.lines)" 
@@ -63,7 +63,7 @@
               {{ currentValue(file.name, lineName, i-1) }}
             </td>
           </template>
-          <td>{{ `${i-1}`.padStart(2,'0') }}</td>
+          <td>{{ i }}</td>
         </tr>
       </table>
     <div class="mt-2 text-green-800">
