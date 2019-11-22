@@ -1,13 +1,13 @@
 <template>
   <div class="flex h-screen">
-    <div class="bg-green-100">
+    <div class="bg-green-100 p-2">
       <div 
         v-for="(date, index) in dates" 
         :key="index" 
-        class="m-2 cursor-pointer whitespace-no-wrap font-thin text-gray-500"
+        class="py-1 px-2 cursor-pointer whitespace-no-wrap font-thin text-gray-500"
         :class="{
-          'text-green-500 font-black': index == selectedDate, 
-          'text-red-800 font-medium': index - 1 == selectedDate
+          'text-green-600 border-t border-l border-r border-black font-semibold': index == selectedDate, 
+          'text-red-600 border-b border-l border-r border-black': index - 1 == selectedDate
         }" 
         @click="selectDate(index)"
       >
@@ -23,7 +23,7 @@
             v-for="(file, index) in currentFiles" 
             :key="`file${index}`" 
             :colspan="Object.keys(file.lines).length" 
-            class="px-3 border border-black"
+            class="px-3 border border-black font-bold"
           >
             {{ file.name }}
           </th>
@@ -35,7 +35,7 @@
             <th 
               v-for="(line, index) in Object.keys(file.lines)" 
               :key="`fileline${file.name}${index}`"
-              class="border border-black cursor-pointer"
+              class="border border-black font-thin cursor-pointer"
               :class="{'bg-green-200': file.name== hoveredLine.fileName && line == hoveredLine.line }"
               @click="copyClipboard(file.name, line)"
               @mouseover="hoveredLine = {fileName: file.name, line}"
@@ -201,6 +201,10 @@ export default {
 </script>
 
 <style>
+* {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
 td,
 th {
     border: 1px solid #ddd;

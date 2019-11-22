@@ -4,14 +4,14 @@ const router = express.Router()
 const File = require('../models/file')
 
 router.get('/dates', (req, res) => {
-    File.getLastDates(process.env.SERVICE_ONE, 48).then(dates => {
+    File.getLastDates(null, 48).then(dates => {
         res.json(dates.map(d => d.date));
     });
 });
 
 router.post('/fromDates', (req, res) => {
     const fileVersions = {};
-    File.getFilesFromDates(process.env.SERVICE_ONE, req.body).then(files => {
+    File.getFilesFromDates(null, req.body).then(files => {
         files.forEach(file => {
             if (file.date in fileVersions) {
                 fileVersions[file.date].push({
