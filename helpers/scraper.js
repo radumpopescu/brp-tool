@@ -161,7 +161,16 @@ class Scraper {
                 })
             });
 
+            switch (this.service) {
+                case process.env.SERVICE_ONE:
+                    request.get(process.env.CHECK_URL_ONE);
+                    break;
+                case process.env.SERVICE_TWO:
+                    request.get(process.env.CHECK_URL_TWO);
+                    break;
+            }
         });
+
         return 'ok';
     }
 
