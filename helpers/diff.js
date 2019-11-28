@@ -5,7 +5,10 @@ class diff {
         return new Promise((resolve, reject) => {
             File.getLastDates(service, 2).then(dates => {
                 dates = dates.map(d => d.date);
-
+                if (dates.length < 2) {
+                    console.log("Only one version present. Can't do it");
+                    return;
+                }
                 const fileVersions = {};
                 File.getFilesFromDates(service, dates)
                     .then((files) => {
