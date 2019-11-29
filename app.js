@@ -10,7 +10,7 @@ const fs = require('fs')
 const cors = require('cors')
 const request = require('request')
 const diff = require('./helpers/diff')
-
+const notifier = require('./helpers/notifier')
 
 app.use(cors())
 
@@ -21,6 +21,7 @@ app.use(require('./controllers'))
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 const diffObj = new diff();
+const notifierObj = new notifier();
 
 const disabledScrape = false;
 // const disabledScrape = true;
@@ -68,17 +69,18 @@ const reflect = (promise) => {
       const errors = [].concat.apply([], results);
       if (errors.length) {
         console.log('Differences found', JSON.stringify(errors));
-        request.post(process.env.NOTIFY_URL,
-          {
-            form: {
-              theAnswerToLifeTheUniverseAndEverything: 42,
-              errors,
-            }
-          }, (err, res, body) => {
-            console.log(body);
+        const emails = JSON.parse(process.env.NOTIFY_EMAILS);
+        emails.forEach(email => {
+          notifierObj.sendMail({
+            to: email,
+            subject: 'Alerta Intraday!!!!!!',
+            body: notifier.generate(errors)
           })
+        });
+        notifierObj.call(`4${process.env.NOTIFY_PHONE}`);
+      } else {
+        console.log('All good')
       }
-      console.log('All good')
     })
   });
 })();

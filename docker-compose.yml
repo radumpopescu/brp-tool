@@ -1,6 +1,7 @@
 version: '3'
 services:
   brp:
+    container_name: brptool
     build:
       context: .
     volumes:
