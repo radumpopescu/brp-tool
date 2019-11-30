@@ -25,7 +25,10 @@ class notifier {
             subject,
             html: body,
         };
-        this.sgMail.send(msg);
+        this.sgMail.send(msg).catch((error) => {
+            console.log('Error sending mail: ' + error.message);
+        });
+
     }
 
     call(number) {
