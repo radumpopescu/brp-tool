@@ -1,5 +1,4 @@
-const nodemailer = require('nodemailer');
-const smtpTransport = require('nodemailer-smtp-transport');
+
 
 const onlyUnique = (value, index, self) => {
     return self.indexOf(value) === index;
@@ -7,14 +6,8 @@ const onlyUnique = (value, index, self) => {
 
 class notifier {
     constructor() {
-        this.mailTransporter = nodemailer.createTransport(smtpTransport({
-            service: 'gmail',
-            host: 'smtp.gmail.com',
-            auth: {
-                user: process.env.GMAIL_USER,
-                pass: process.env.GMAIL_PASS
-            }
-        }));
+        this.sgMail = require('@sendgrid/mail');
+        this.sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
         this.twilioClient = require('twilio')(process.env.TWILIO_SID, process.env.TWILIO_TOKEN);
     }
@@ -26,18 +19,13 @@ class notifier {
         if (!subject) {
             subject = 'Notificare';
         }
-        this.mailTransporter.sendMail({
-            from: process.env.GMAIL_USER,
+        const msg = {
             to,
+            from: process.env.MAIL_FROM,
             subject,
             html: body,
-        }, function (error) {
-            if (error) {
-                console.log('Erorr sending email', error);
-            } else {
-                // console.log('mail sent to', to);
-            }
-        });
+        };
+        this.sgMail.send(msg);
     }
 
     call(number) {
