@@ -4,7 +4,8 @@ const puppeteer = require('puppeteer');
 const request = require('request');
 const fs = require('fs');
 const Base64 = require('js-base64').Base64;
-const moment = require('moment');
+const moment = require('moment-timezone');
+
 
 // const Cookie = require('../models/cookie')
 const Scrape = require('../models/scrape')
@@ -150,8 +151,7 @@ class Scraper {
             });
 
             csvFiles.forEach(file => {
-                const dateStr = `${file.date} ${file.time}`;
-                const date = moment(dateStr, 'DD/MM/YYYY HH:mm').format('YYYY-MM-DD HH:mm:00');
+                const date = moment().tz("Europe/Bucharest").format('YYYY-MM-DD HH:05:00');
 
                 File.add({
                     service: this.service,
@@ -175,13 +175,40 @@ class Scraper {
 
     downloadFiles(files) {
         return new Promise((resolve, reject) => {
-            const filteredFiles = [];
-            files.some(f => {
-                if (f.extension != 'csv') {
-                    return true;
-                }
-                filteredFiles.push(f);
+            const t = moment().tz("Europe/Bucharest");
+
+            const dates = [
+                t.format('YYYY-MM-DD'),
+                t.add(1, 'days').format('YYYY-MM-DD'),
+                t.add(1, 'days').format('YYYY-MM-DD'),
+                t.add(1, 'days').format('YYYY-MM-DD'),
+                t.add(1, 'days').format('YYYY-MM-DD'),
+            ];
+
+            const hour = t.format('HH');
+            const previousHour = t.subtract(1, 'hours').format('HH');
+            const times = [];
+
+            for (let i = 45; i <= 59; i++) {
+                times.push(`${previousHour}:${i}`);
+            }
+
+            for (let i = 0; i <= 6; i++) {
+                times.push(`${hour}:0${i}`);
+            }
+
+            const filteredFiles = files.filter(f => {
+                return (
+                    f.extension == 'csv' &&
+                    dates.some(date => {
+                        return f.fileName.includes(date);
+                    }) &&
+                    times.some(time => {
+                        return f.time == time;
+                    })
+                );
             });
+
             const csvs = [];
 
             const promises = filteredFiles.map(f => {
