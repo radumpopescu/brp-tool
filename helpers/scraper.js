@@ -93,7 +93,7 @@ class Scraper {
             console.log(`AlreadyLoggedIn ${this.service}`)
         }
         await this.page.waitFor(1000);
-        await this.page.screenshot({ path: `screenshots/${moment().format('YYYY-MM-DD HH:mm')}-${this.service}.png` });
+        await this.page.screenshot({ path: `screenshots/${moment().tz("Europe/Bucharest").format('YYYY-MM-DD HH:mm')}-${this.service}.png` });
         const files = await this.page.evaluate(() => {
             const trs = Array.from(document.querySelectorAll('table tr'))
 
