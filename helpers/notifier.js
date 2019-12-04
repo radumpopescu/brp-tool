@@ -1,4 +1,4 @@
-
+const moment = require('moment-timezone');
 
 const onlyUnique = (value, index, self) => {
     return self.indexOf(value) === index;
@@ -39,6 +39,20 @@ class notifier {
                 from: process.env.TWILIO_NUMBER
             })
             .then(call => console.log(`Call made ${call.sid}`));
+    }
+
+    static shouldNotify(differences) {
+        const t = moment().tz("Europe/Bucharest");
+        const hourNow = t.format('H');
+
+        if (hourNow > 7) {
+            return true;
+        }
+        const dateNow = t.format('YYYY-MM-DD');
+
+        return differences.some(d => {
+            return d.file.includes(dateNow) && d.hour < 11;
+        })
     }
 
     static generate(errors) {

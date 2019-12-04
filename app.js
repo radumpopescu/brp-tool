@@ -69,15 +69,21 @@ const reflect = (promise) => {
       const errors = [].concat.apply([], results);
       if (errors.length) {
         console.log('Differences found', JSON.stringify(errors));
-        const emails = JSON.parse(process.env.NOTIFY_EMAILS);
-        emails.forEach(email => {
-          notifierObj.sendMail({
-            to: email,
-            subject: 'Alerta Intraday!!!!!!',
-            body: notifier.generate(errors)
-          })
-        });
-        notifierObj.call(`4${process.env.NOTIFY_PHONE}`);
+        if (notifier.shouldNotify(errors)) {
+          const emails = JSON.parse(process.env.NOTIFY_EMAILS);
+          emails.forEach(email => {
+            notifierObj.sendMail({
+              to: email,
+              subject: 'Alerta Intraday!!!!!!',
+              body: notifier.generate(errors)
+            })
+          });
+          notifierObj.call(`4${process.env.NOTIFY_PHONE}`);
+        } else {
+          // @TODO add to a db queue
+          console.log('Not notifying because nothing urgent happened')
+        }
+
       } else {
         console.log('All good')
       }
