@@ -1,13 +1,27 @@
 const moment = require('moment-timezone');
+const diff = require("./diff");
 
 const onlyUnique = (value, index, self) => {
     return self.indexOf(value) === index;
 }
 
+const reflect = promise => {
+    return promise.then(
+        () => {
+            return [];
+        },
+        errors => {
+            return errors;
+        }
+    );
+};
+
 class notifier {
     constructor() {
         this.sgMail = require('@sendgrid/mail');
         this.sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+
+        this.diffObj = new diff();
 
         this.twilioClient = require('twilio')(process.env.TWILIO_SID, process.env.TWILIO_TOKEN);
     }
@@ -39,6 +53,35 @@ class notifier {
                 from: process.env.TWILIO_NUMBER
             })
             .then(call => console.log(`Call made ${call.sid}`));
+    }
+
+    check() {
+        Promise.all([
+            this.diffObj.check(process.env.SERVICE_ONE),
+            this.diffObj.check(process.env.SERVICE_TWO),
+        ].map(reflect)).then((results) => {
+            // Magic flattening of the array of arrays
+            const errors = [].concat.apply([], results);
+            if (errors.length) {
+                console.log('Differences found', JSON.stringify(errors));
+                if (notifier.shouldNotify(errors)) {
+                    const emails = JSON.parse(process.env.NOTIFY_EMAILS);
+                    emails.forEach(email => {
+                        this.sendMail({
+                            to: email,
+                            subject: 'Alerta Intraday!!!!!!',
+                            body: notifier.generate(errors)
+                        })
+                    });
+                    this.call(`4${process.env.NOTIFY_PHONE}`);
+                } else {
+                    // @TODO add to a db queue
+                    console.log('Not notifying because nothing urgent happened')
+                }
+            } else {
+                console.log('All good')
+            }
+        })
     }
 
     static shouldNotify(differences) {
