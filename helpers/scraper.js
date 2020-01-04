@@ -92,8 +92,8 @@ class Scraper {
         } else {
             console.log(`AlreadyLoggedIn ${this.service}`)
         }
-        await this.page.waitFor(1000);
-        await this.page.screenshot({ path: `screenshots/${moment().tz("Europe/Bucharest").format('YYYY-MM-DD HH:mm')}-${this.service}.png` });
+        await this.page.waitFor(2000);
+        await this.page.screenshot({ path: `screenshots/${moment().format('YYYY-MM-DD HH:mm')}-${this.service}.jpeg`, fullPage: true, type: 'jpeg' });
         const files = await this.page.evaluate(() => {
             const trs = Array.from(document.querySelectorAll('table tr'))
 
@@ -193,7 +193,7 @@ class Scraper {
                 times.push(`${previousHour}:${i}`);
             }
 
-            for (let i = 0; i <= 6; i++) {
+            for (let i = 0; i <= 9; i++) {
                 times.push(`${hour}:0${i}`);
             }
 
