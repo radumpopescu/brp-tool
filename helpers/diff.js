@@ -7,7 +7,7 @@ class diff {
                 dates = dates.map(d => d.date);
                 if (dates.length < 2) {
                     console.log("Only one version present. Can't do it");
-                    return;
+                    reject();
                 }
                 const fileVersions = {};
                 File.getFilesFromDates(service, dates)

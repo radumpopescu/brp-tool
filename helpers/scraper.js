@@ -151,12 +151,12 @@ class Scraper {
             });
 
             csvFiles.forEach(file => {
-                const date = moment().tz("Europe/Bucharest").format('YYYY-MM-DD HH:05:00');
+                const date = moment().tz("Europe/Bucharest").format('YYYY-MM-DD HH:00:00');
 
                 File.add({
                     service: this.service,
-                    name: file.name,
                     date,
+                    name: file.name,
                     lines: JSON.stringify(file.lines),
                 })
             });
