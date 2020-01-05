@@ -1,0 +1,9943 @@
+Gmail	Radu Popescu <radumihailpopescu@gmail.com>
+(fără subiect)
+Popescu Cristian <cristicp@gmail.com>	3 ianuarie 2020, 18:46
+Către: Radu Mihail Popescu <radumihailpopescu@gmail.com>
+
+
+
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="fwFormChanged"
+
+0
+-----------------------------7e425b150f2a
+Content------------------------------7e425b150f2a
+Content-Disposition: form-data; name="fwFormChanged"
+
+0
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="fwlnguserid"
+
+0
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="IMPORT_XMLTYPE"
+
+DAR_GENER_SCHEDULING_NOMIN
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="F01FILE_"; filename="C:\ZEXE_ENEL\PC_DAMAS_04.01.2020.xml"
+Content-Type: text/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ScheduleMessage xmlns:ecc="etso-core-cmpts.xsd" DtdVersion="3" DtdRelease="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schedule-xml.xsd">
+<MessageIdentification v="PCDamas"/>
+<MessageVersion v="1"/>
+<MessageType v="A01"/>
+<ProcessType v="A17"/>
+<ScheduleClassificationType v="A01"/>
+<SenderIdentification v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<SenderRole v="A21"/>
+<ReceiverIdentification v="10XRO-TEL------2" codingScheme="A01"/>
+<ReceiverRole v="A04"/>
+<MessageDateTime v="2020-01-03T18:00:03Z"/>
+<ScheduleTimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="productie gaz"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ECIGAGAZ" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="20.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="16.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="16.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="productie solar"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ECIGASOLAR" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.069"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="8.502"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="37.12"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="68.254"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="84.716"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="85.533"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="72.775"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="48.687"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="22.351"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="3.376"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.002"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="consum"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ENEL-CIGAC" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="1909.455"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="1822.391"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="1793.489"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="1769.296"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="1768.909"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="1797.74"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="1873.207"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="1946.486"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="2034.915"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2152.681"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="2214.994"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="2226.795"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="2214.798"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2189.074"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="2161.303"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="2154.32"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="2220.611"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="2453.668"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="2509.507"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2494.134"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2440.771"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="2336.924"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="2182.239"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="2023.734"/>
+<Type v="Z02"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="enel eolian"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-EGPREOLIAN-1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="29"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="45.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="37.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="26.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="20.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="23.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="31.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="30.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="20.881"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="13.214"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="10.252"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="7.688"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="5.784"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="6.558"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="8.357"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="12.683"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="27.659"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="41.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="41.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="43.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="47.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="46.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="40.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="37.1"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="Frasinet"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-FRASINET2--1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="4.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="4.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="2.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="casimcea1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CASIMCEA1--J" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.094"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0.239"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0.295"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0.229"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.207"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.26"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0.243"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.187"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.165"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.163"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.175"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.173"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.197"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.285"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.405"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.524"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.511"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.264"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.372"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.381"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.343"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.165"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.228"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0.181"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="petrotel"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-PETROTEL---R" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="4.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="4.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="4.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="4.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="EGPR Solar"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-EGPRSOLAR--7" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="1.419"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="5.986"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="10.448"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="12.612"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="12.816"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="10.942"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="7.743"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="3.717"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.641"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="u1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30WCERNCERN1---Y" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="651"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="651"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="u2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30WCERNCERN2---T" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="650.979"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="650.982"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="650.914"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="650.985"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="650.973"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="650.954"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="650.94"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="650.927"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="650.974"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="650.907"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="650.943"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="650.923"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="650.967"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="650.958"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="650.902"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="650.907"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="650.993"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="650.981"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="650.987"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="650.916"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="650.932"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="650.949"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="650.958"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="650.907"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cetatea"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="CETATE" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.087"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.324"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.606"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.746"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.848"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.761"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.567"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.304"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.048"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="onesti"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-ONESTI-----M" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="3.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="3.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="3.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="2.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="productie eolian"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ECIGAEOLIAN" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="19.328"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="11.459"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="1.102"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.571"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.774"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0.861"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.767"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.454"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.448"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.794"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.759"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.718"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.718"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.721"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.772"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="1.211"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.622"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="1.648"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="1.696"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="1.765"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="1.708"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="1.741"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="1.881"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="blue line"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BESTEPE2---K" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="1.4"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="chirnogeni"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CHIRNOGENI-P" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="22.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="27.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="27.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="26"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="25.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="25.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="25.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="24.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="20.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="15.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="10.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="7.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="7.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="12.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="14.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="17.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="20"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="20"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="20"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="20.8"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="casimcea2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CASIMCEA2--F" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cudalbi"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CUDALBI----1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="horia"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-HORIA------7" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cerna"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CERNA------L" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="babadag1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABADAG1---U" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="babadag2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABADAG2---P" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="urzicuta1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-URZICUTA1--2" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="2.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="mozaceni"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-MOZACENI1--F" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="curcubata"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CURCUBATA--W" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="2.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="3.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="3.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="3.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="5.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="6.9"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="tortomanu 3"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-TORTOMANU3-K" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="2.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="2.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="2.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="1.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="2.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="baba ana"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABAANA----9" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="2.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="3.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="corni"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30WCORNI-------Y" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="5.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="9.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="4.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="5.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="4.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="3.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="3.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="5.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="6.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="6.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="5.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="4.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="3.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="4.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="5.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="6.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="7.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="6.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="7.3"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="babadag 3"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABADAG3---K" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="1.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="1.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="catalan"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CATALAN3---I" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="1.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="harman"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-HARMAN-----V" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="urzicuta2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="URZICUTA2" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cristusec 2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="CRISTUSEC2" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cristusec 1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="CRISTUSEC1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="dej-grivitei"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="DEJ" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="jichis"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="JICHIS1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="lunca"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="LUNCA" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+</ScheduleMessage>
+
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="FORCE_ACC"
+
+0
+-----------------------------7e425b150f2a--
+Disposition: form-data; name="fwlnguserid"
+
+0
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="IMPORT_XMLTYPE"
+
+DAR_GENER_SCHEDULING_NOMIN
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="F01FILE_"; filename="C:\ZEXE_ENEL\PC_DAMAS_04.01.2020.xml"
+Content-Type: text/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ScheduleMessage xmlns:ecc="etso-core-cmpts.xsd" DtdVersion="3" DtdRelease="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schedule-xml.xsd">
+<MessageIdentification v="PCDamas"/>
+<MessageVersion v="1"/>
+<MessageType v="A01"/>
+<ProcessType v="A17"/>
+<ScheduleClassificationType v="A01"/>
+<SenderIdentification v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<SenderRole v="A21"/>
+<ReceiverIdentification v="10XRO-TEL------2" codingScheme="A01"/>
+<ReceiverRole v="A04"/>
+<MessageDateTime v="2020-01-03T18:00:03Z"/>
+<ScheduleTimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="productie gaz"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ECIGAGAZ" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="20.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="16.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="16.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="19.7"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="productie solar"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ECIGASOLAR" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.069"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="8.502"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="37.12"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="68.254"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="84.716"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="85.533"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="72.775"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="48.687"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="22.351"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="3.376"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.002"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="consum"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ENEL-CIGAC" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="1909.455"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="1822.391"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="1793.489"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="1769.296"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="1768.909"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="1797.74"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="1873.207"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="1946.486"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="2034.915"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2152.681"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="2214.994"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="2226.795"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="2214.798"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2189.074"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="2161.303"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="2154.32"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="2220.611"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="2453.668"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="2509.507"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2494.134"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2440.771"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="2336.924"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="2182.239"/>
+<Type v="Z02"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="2023.734"/>
+<Type v="Z02"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="enel eolian"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-EGPREOLIAN-1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="29"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="45.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="37.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="26.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="20.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="23.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="31.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="30.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="20.881"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="13.214"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="10.252"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="7.688"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="5.784"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="6.558"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="8.357"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="12.683"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="27.659"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="41.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="41.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="43.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="47.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="46.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="40.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="37.1"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="Frasinet"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-FRASINET2--1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="4.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="4.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="2.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="casimcea1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CASIMCEA1--J" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.094"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0.239"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0.295"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0.229"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.207"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.26"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0.243"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.187"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.165"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.163"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.175"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.173"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.197"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.285"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.405"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.524"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.511"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.264"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.372"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.381"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.343"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.165"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.228"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0.181"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="petrotel"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-PETROTEL---R" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="4.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="4.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="4.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="4.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="EGPR Solar"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-EGPRSOLAR--7" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="1.419"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="5.986"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="10.448"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="12.612"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="12.816"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="10.942"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="7.743"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="3.717"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.641"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="u1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30WCERNCERN1---Y" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="651"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="651"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="661"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="u2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30WCERNCERN2---T" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="650.979"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="650.982"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="650.914"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="650.985"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="650.973"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="650.954"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="650.94"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="650.927"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="650.974"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="650.907"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="650.943"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="650.923"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="650.967"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="650.958"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="650.902"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="650.907"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="650.993"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="650.981"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="650.987"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="650.916"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="650.932"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="650.949"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="650.958"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="650.907"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cetatea"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="CETATE" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.087"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.324"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.606"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.746"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.848"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.761"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.567"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.304"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.048"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="onesti"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-ONESTI-----M" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="3.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="3.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="3.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="2.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="productie eolian"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="ECIGAEOLIAN" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="19.328"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="11.459"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="1.102"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.571"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.774"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0.861"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.767"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.454"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.448"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.794"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.759"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.718"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.718"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.721"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.772"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="1.211"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.622"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="1.648"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="1.696"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="1.765"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="1.708"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="1.741"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="1.881"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="blue line"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BESTEPE2---K" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="1.4"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="chirnogeni"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CHIRNOGENI-P" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="22.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="27.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="27.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="26"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="25.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="25.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="25.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="24.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="20.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="15.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="10.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="7.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="5.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="7.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="12.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="14.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="17.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="20"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="20"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="20"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="20.8"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="casimcea2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CASIMCEA2--F" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cudalbi"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CUDALBI----1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="horia"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-HORIA------7" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cerna"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CERNA------L" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="babadag1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABADAG1---U" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="babadag2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABADAG2---P" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="urzicuta1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-URZICUTA1--2" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="2.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="mozaceni"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-MOZACENI1--F" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="curcubata"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CURCUBATA--W" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="2.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="3.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="3.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="3.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="5.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="6.9"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="tortomanu 3"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-TORTOMANU3-K" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="2.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="2.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="2.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="1.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="1.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="2.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="2"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="baba ana"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABAANA----9" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="2.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="2.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="3.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="corni"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30WCORNI-------Y" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="5.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="9.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="4.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="5.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="4.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="3.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="3.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="5.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="6.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="6.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="5.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="4.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="2.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="3.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="4.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="5.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="6.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="7.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="6.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="7.3"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="babadag 3"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-BABADAG3---K" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="1.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="1.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="1.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="3.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="2.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="2.4"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="catalan"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-CATALAN3---I" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0.8"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="2.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="2.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="2.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="1.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="1.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="1.2"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="harman"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="30W-HARMAN-----V" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="1.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="urzicuta2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="URZICUTA2" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.9"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cristusec 2"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="CRISTUSEC2" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="cristusec 1"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="CRISTUSEC1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="dej-grivitei"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="DEJ" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.5"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="jichis"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="JICHIS1" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.7"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.3"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+<ScheduleTimeSeries>
+<SendersTimeSeriesIdentification v="lunca"/>
+<SendersTimeSeriesVersion v="1"/>
+<BusinessType v="A03"/>
+<Product v="8716867000016"/>
+<ObjectAggregation v="A03"/>
+<InArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutArea v="10YRO-TEL------P" codingScheme="A01"/>
+<OutParty v="30XROENEL-CIGA-Z" codingScheme="A01"/>
+<ResourceObject v="LUNCA" codingScheme="A01"/>
+<PriorityProduction v="Z01"/>
+<MeasurementUnit v="MAW"/>
+<Period>
+<TimeInterval v="2020-01-03T22:00Z/2020-01-04T22:00Z"/>
+<Resolution v="PT60M"/>
+<Interval>
+<Pos v="1"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="2"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="3"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="4"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="5"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="6"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="7"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="8"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="9"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="10"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="11"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="12"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="13"/>
+<Qty v="0.6"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="14"/>
+<Qty v="0.4"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="15"/>
+<Qty v="0.2"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="16"/>
+<Qty v="0.1"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="17"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="18"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="19"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="20"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="21"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="22"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="23"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+<Interval>
+<Pos v="24"/>
+<Qty v="0"/>
+<Type v="Z01"/>
+</Interval>
+</Period>
+</ScheduleTimeSeries>
+</ScheduleMessage>
+
+-----------------------------7e425b150f2a
+Content-Disposition: form-data; name="FORCE_ACC"
+
+0
+-----------------------------7e425b150f2a--

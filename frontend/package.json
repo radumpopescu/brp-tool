@@ -1,51 +1,39 @@
 {
-  "name": "brp-tool-frontend",
-  "version": "1.0.0",
+  "name": "brp-client",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "BRP client",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Radu Popescu <radu@popescu.xyz>",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "core-js": "^3.3.2",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
     "moment": "^2.24.0",
-    "toastr": "^2.1.4",
-    "vue": "^2.6.10"
+    "quasar": "^1.0.0",
+    "toastr": "^2.1.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-plugin-eslint": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^5.16.0",
+    "@quasar/app": "^1.0.0",
+    "@vue/eslint-config-prettier": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "quasar-app-extension-tailwindcss": "^0.1.5"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {
-      "no-console": "warn"
-    },
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions"
+    "last 1 version, not dead, ie >= 11"
   ]
 }
