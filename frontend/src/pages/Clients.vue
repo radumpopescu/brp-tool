@@ -13,11 +13,94 @@
       <tbody>
         <tr v-for="client in clients" :key="client.id">
           <td>{{ client.id }}</td>
-          <td>{{ client.service }}</td>
-          <td>{{ client.code }}</td>
-          <td>{{ client.name }}</td>
-          <td>{{ client.xml_name }}</td>
-          <td>{{ client.platform_id }}</td>
+          <td class="cursor-pointer">
+            {{ client.service }}
+            <span v-if="!client.service">...</span>
+            <q-popup-edit
+              content-style="{ width: '3em' }"
+              buttons
+              v-model="client.service"
+              @save="
+                value => {
+                  saveValue(client, 'service', value);
+                }
+              "
+            >
+              <q-select
+                v-model="client.service"
+                :options="['ciga', 'cinta']"
+                label="Service"
+              />
+            </q-popup-edit>
+          </td>
+          <td class="cursor-pointer">
+            {{ client.code }}
+            <span v-if="!client.code">...</span>
+            <q-popup-edit
+              content-style="{ width: '3em' }"
+              buttons
+              v-model="client.code"
+              @save="
+                value => {
+                  saveValue(client, 'code', value);
+                }
+              "
+            >
+              <q-input v-model="client.code" label="Code" />
+            </q-popup-edit>
+          </td>
+          <td class="cursor-pointer">
+            {{ client.name }}
+            <span v-if="!client.name">...</span>
+            <q-popup-edit
+              content-style="{ width: '3em' }"
+              buttons
+              v-model="client.name"
+              @save="
+                value => {
+                  saveValue(client, 'name', value);
+                }
+              "
+            >
+              <q-input v-model="client.name" label="Name" />
+            </q-popup-edit>
+          </td>
+          <td class="cursor-pointer">
+            {{ client.xml_name }}
+            <span v-if="!client.xml_name">...</span>
+            <q-popup-edit
+              content-style="{ width: '3em' }"
+              buttons
+              v-model="client.xml_name"
+              @save="
+                value => {
+                  saveValue(client, 'xml_name', value);
+                }
+              "
+            >
+              <q-input v-model="client.xml_name" label="XML Name" />
+            </q-popup-edit>
+          </td>
+          <td class="cursor-pointer">
+            {{ client.platform_id }}
+            <span v-if="!client.platform_id">...</span>
+            <q-popup-edit
+              content-style="{ width: '3em' }"
+              buttons
+              v-model.number="client.platform_id"
+              @save="
+                value => {
+                  saveValue(client, 'platform_id', value);
+                }
+              "
+            >
+              <q-input
+                type="number"
+                v-model="client.platform_id"
+                label="Platform ID"
+              />
+            </q-popup-edit>
+          </td>
           <td class="tw-p-2">
             <q-btn
               round
@@ -108,6 +191,16 @@ export default {
         .delete(`${process.env.VUE_APP_BACKEND_URL}/clients/${clientId}`)
         .then(() => {
           this.clients = this.clients.filter(client => client.id != clientId);
+        });
+    },
+    saveValue(client, key, value) {
+      console.log("client, key, value", client, key, value);
+      const data = {};
+      data[key] = value;
+      axios
+        .patch(`${process.env.VUE_APP_BACKEND_URL}/clients/${client.id}`, data)
+        .then(client => {
+          console.log(client);
         });
     }
   }

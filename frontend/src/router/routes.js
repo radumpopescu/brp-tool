@@ -17,6 +17,11 @@ const routes = [
     path: "/upload",
     component: () => import("layouts/MyLayout.vue"),
     children: [{ path: "", component: () => import("pages/Upload.vue") }]
+  },
+  {
+    path: "/values",
+    component: () => import("layouts/MyLayout.vue"),
+    children: [{ path: "", component: () => import("pages/Values.vue") }]
   }
 ];
 

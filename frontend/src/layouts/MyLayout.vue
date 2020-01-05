@@ -8,9 +8,10 @@
       </q-toolbar>
 
       <q-tabs align="left">
-        <q-route-tab to="/scrapes" label="Scrapes" />
-        <q-route-tab to="/clients" label="Clients" />
+        <q-route-tab to="/scrapes" label="Intradayurile vietii" />
+        <q-route-tab to="/clients" label="Clientii destepti" />
         <q-route-tab to="/upload" label="Incarca ceseveu'" />
+        <q-route-tab to="/values" label="Valorile lu peste" />
       </q-tabs>
     </q-header>
 

@@ -11,6 +11,20 @@ const addValue = data => {
   });
 };
 
+router.get("/", (req, res) => {
+  Value.findAll().then(values => {
+    const dates = {};
+    values.forEach(val => {
+      if (!(val["date"] in dates)) {
+        dates[val["date"]] = [];
+      }
+      val.values = val.values.split(",");
+      dates[val["date"]].push(val);
+    });
+    res.json(dates);
+  });
+});
+
 router.put("/", (req, res) => {
   const { clients, date } = req.body;
   clients.forEach(clientData => {
