@@ -34,6 +34,7 @@
               >({{ ago(dates[selectedDate]) }})</span
             >
           </div>
+          <value-table />
           <table>
             <tr>
               <th class="tw-border tw-border-black">Ora</th>
@@ -114,37 +115,16 @@
 import axios from "axios";
 
 import moment from "moment";
-import toastr from "toastr";
 
-toastr.options = {
-  closeButton: false,
-  debug: false,
-  newestOnTop: false,
-  progressBar: false,
-  positionClass: "toast-bottom-center",
-  preventDuplicates: false,
-  onclick: null,
-  showDuration: "300",
-  hideDuration: "1000",
-  timeOut: "5000",
-  extendedTimeOut: "1000",
-  showEasing: "swing",
-  hideEasing: "linear",
-  showMethod: "fadeIn",
-  hideMethod: "fadeOut"
-};
+import ValueTable from "../components/ValueTable";
+
 moment.locale("ro");
 
-const copyToClipboard = str => {
-  const el = document.createElement("textarea");
-  el.value = str;
-  document.body.appendChild(el);
-  el.select();
-  document.execCommand("copy");
-  document.body.removeChild(el);
-};
-
 export default {
+  components: {
+    ValueTable
+  },
+
   data() {
     return {
       dates: [],
@@ -214,16 +194,6 @@ export default {
 
     ago(date) {
       return moment(date).fromNow();
-    },
-    copyClipboard(file, line) {
-      const values = [];
-
-      for (let i = 0; i < 24; i++) {
-        values.push(this.currentValue(file, line, i));
-      }
-
-      copyToClipboard(values.join("\n "));
-      toastr.success(`Datele pentru ${line} au fost copiate in clipboard`);
     }
   }
 };

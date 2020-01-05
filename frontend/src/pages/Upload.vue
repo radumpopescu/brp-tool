@@ -23,7 +23,7 @@
       <div class="tw-text-xl tw-mt-8 tw-mb-2">
         Am recunoscut aceste date:
       </div>
-      <value-table :values="response" :clients="clients" />
+      <value-table :values="response" />
       <div class="tw-text-xl tw-mt-8 tw-mb-2">
         Daca sunt corecte, adaugati-le pentru data de:
       </div>
@@ -44,6 +44,7 @@
 import axios from "axios";
 import moment from "moment";
 import ValueTable from "../components/ValueTable";
+import { mapState } from "vuex";
 
 export default {
   components: {
@@ -51,7 +52,6 @@ export default {
   },
   data() {
     return {
-      clients: [],
       response: null,
       date: null
     };
@@ -59,12 +59,13 @@ export default {
 
   mounted() {
     this.date = moment().format("YYYY/MM/DD");
-    axios.get(`${process.env.VUE_APP_BACKEND_URL}/clients`).then(res => {
-      this.clients = res.data;
-    });
   },
 
   computed: {
+    ...mapState("clients", {
+      clients: state => state.all
+    }),
+
     url() {
       return `${process.env.VUE_APP_BACKEND_URL}/upload`;
     }
@@ -74,6 +75,7 @@ export default {
     uploaded({ xhr }) {
       this.response = JSON.parse(xhr.response);
     },
+
     addData() {
       const dataWithClients = this.response.map(client => {
         return {
@@ -89,6 +91,18 @@ export default {
         .then(res => {
           console.log(res);
         });
+    },
+
+    getClient(value) {
+      const index = this.clients.findIndex(c => {
+        return (
+          c.id == value.client || c.code == value.name || c.name == value.name
+        );
+      });
+      if (index != -1) {
+        return this.clients[index];
+      }
+      return null;
     }
   }
 };

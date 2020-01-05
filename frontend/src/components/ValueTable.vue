@@ -1,12 +1,11 @@
 <template>
   <table>
     <tr>
-      <th class="tw-border tw-border-black">Ora</th>
-      <th
-        v-for="(value, index) in values"
-        :key="index"
-        class="tw-px-3 tw-border tw-border-black tw-font-bold"
-      >
+      <td></td>
+      <td v-for="i in 24" :key="i" class="tw-font-thin">{{ i }}</td>
+    </tr>
+    <tr v-for="(value, index) in values" :key="index">
+      <th class="tw-px-4">
         <div v-if="getClient(value)">
           <div>
             <q-badge
@@ -26,38 +25,63 @@
           <div>{{ value.name }}</div>
         </div>
       </th>
-      <th class="tw-border tw-border-black">Ora</th>
-    </tr>
-    <tr v-for="i in 24" :key="i">
-      <td class="tw-font-thin">{{ i }}</td>
-      <td
-        v-for="(value, index) in values"
-        :key="index"
-        class="tw-text-sm hover:tw-bg-green-200"
-      >
+      <td v-for="i in 24" :key="i" class="tw-text-sm hover:tw-bg-green-200">
         {{ value.values[i - 1] }}
       </td>
-      <td class="tw-font-thin">{{ i }}</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td v-for="i in 24" :key="i" class="tw-font-thin">{{ i }}</td>
     </tr>
   </table>
 </template>
 
 <script>
+import toastr from "toastr";
+import { mapState } from "vuex";
+
+toastr.options = {
+  closeButton: false,
+  debug: false,
+  newestOnTop: false,
+  progressBar: false,
+  positionClass: "toast-bottom-center",
+  preventDuplicates: false,
+  onclick: null,
+  showDuration: "300",
+  hideDuration: "1000",
+  timeOut: "5000",
+  extendedTimeOut: "1000",
+  showEasing: "swing",
+  hideEasing: "linear",
+  showMethod: "fadeIn",
+  hideMethod: "fadeOut"
+};
+
+const copyToClipboard = str => {
+  const el = document.createElement("textarea");
+  el.value = str;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand("copy");
+  document.body.removeChild(el);
+};
+
 export default {
   props: {
     values: {
       type: Array,
       required: true
-    },
-    clients: {
-      type: Array,
-      required: true
     }
+  },
+
+  computed: {
+    ...mapState("clients", {
+      clients: state => state.all
+    })
   },
   methods: {
     getClient(value) {
-      console.log(value, value.client);
-
       const index = this.clients.findIndex(c => {
         return (
           c.id == value.client || c.code == value.name || c.name == value.name
@@ -67,6 +91,17 @@ export default {
         return this.clients[index];
       }
       return null;
+    },
+
+    copyClipboard(file, line) {
+      const values = [];
+
+      for (let i = 0; i < 24; i++) {
+        values.push(this.currentValue(file, line, i));
+      }
+
+      copyToClipboard(values.join("\n "));
+      toastr.success(`Datele pentru ${line} au fost copiate in clipboard`);
     }
   }
 };

@@ -16,11 +16,7 @@
       </div>
     </q-drawer>
     <q-page-container class="tw-m-8">
-      <value-table
-        v-if="dates && clients"
-        :values="values"
-        :clients="clients"
-      />
+      <value-table v-if="dates" :values="values" />
     </q-page-container>
   </div>
 </template>
@@ -37,7 +33,6 @@ export default {
   data() {
     return {
       dates: null,
-      clients: null,
       selectedIndex: 0
     };
   },
@@ -45,9 +40,6 @@ export default {
   mounted() {
     axios.get(`${process.env.VUE_APP_BACKEND_URL}/values`).then(res => {
       this.dates = res.data;
-    });
-    axios.get(`${process.env.VUE_APP_BACKEND_URL}/clients`).then(res => {
-      this.clients = res.data;
     });
   },
 

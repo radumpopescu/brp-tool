@@ -19,7 +19,8 @@
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
-              v-model="client.service"
+              v-model="temp"
+              @before-show="temp = client.service"
               @save="
                 value => {
                   saveValue(client, 'service', value);
@@ -27,7 +28,7 @@
               "
             >
               <q-select
-                v-model="client.service"
+                v-model="temp"
                 :options="['ciga', 'cinta']"
                 label="Service"
               />
@@ -39,14 +40,15 @@
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
-              v-model="client.code"
+              v-model="temp"
+              @before-show="temp = client.code"
               @save="
                 value => {
                   saveValue(client, 'code', value);
                 }
               "
             >
-              <q-input v-model="client.code" label="Code" />
+              <q-input v-model="temp" label="Code" />
             </q-popup-edit>
           </td>
           <td class="cursor-pointer">
@@ -55,14 +57,15 @@
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
-              v-model="client.name"
+              v-model="temp"
+              @before-show="temp = client.name"
               @save="
                 value => {
                   saveValue(client, 'name', value);
                 }
               "
             >
-              <q-input v-model="client.name" label="Name" />
+              <q-input v-model="temp" label="Name" />
             </q-popup-edit>
           </td>
           <td class="cursor-pointer">
@@ -71,14 +74,15 @@
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
-              v-model="client.xml_name"
+              v-model="temp"
+              @before-show="temp = client.xml_name"
               @save="
                 value => {
                   saveValue(client, 'xml_name', value);
                 }
               "
             >
-              <q-input v-model="client.xml_name" label="XML Name" />
+              <q-input v-model="temp" label="XML Name" />
             </q-popup-edit>
           </td>
           <td class="cursor-pointer">
@@ -87,18 +91,15 @@
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
-              v-model.number="client.platform_id"
+              v-model.number="temp"
+              @before-show="temp = client.platform_id"
               @save="
                 value => {
                   saveValue(client, 'platform_id', value);
                 }
               "
             >
-              <q-input
-                type="number"
-                v-model="client.platform_id"
-                label="Platform ID"
-              />
+              <q-input type="number" v-model="temp" label="Platform ID" />
             </q-popup-edit>
           </td>
           <td class="tw-p-2">
@@ -144,64 +145,60 @@
 </template>
 
 <script>
-import axios from "axios";
 const DEFAULT_SERVICE = "ciga";
+import { mapState } from "vuex";
 export default {
   data() {
     return {
-      clients: [],
       service: DEFAULT_SERVICE,
       code: "",
       name: "",
       xml: "",
-      platform: ""
+      platform: "",
+      temp: null
     };
   },
 
-  computed: {},
+  computed: {
+    ...mapState("clients", {
+      clients: state => state.all
+    })
+  },
 
   mounted() {
-    axios.get(`${process.env.VUE_APP_BACKEND_URL}/clients`).then(res => {
-      this.clients = res.data;
-    });
+    // axios.get(`${process.env.VUE_APP_BACKEND_URL}/clients`).then(res => {
+    //   this.clients = res.data;
+    // });
   },
 
   methods: {
     add() {
-      axios
-        .put(`${process.env.VUE_APP_BACKEND_URL}/clients`, {
-          service: this.service,
-          code: this.code,
-          name: this.name,
-          xml_name: this.xml,
-          platform_id: this.platform
-        })
-        .then(res => {
-          this.clients.push(res.data);
-          this.service = DEFAULT_SERVICE;
-          this.code = "";
-          this.name = "";
-          this.xml = "";
-          this.platform = "";
-        });
+      this.$store.dispatch("clients/add", {
+        service: this.service,
+        code: this.code,
+        name: this.name,
+        xml_name: this.xml,
+        platform_id: this.platform
+      });
+
+      this.service = DEFAULT_SERVICE;
+      this.code = "";
+      this.name = "";
+      this.xml = "";
+      this.platform = "";
     },
 
     deleteClient(clientId) {
-      axios
-        .delete(`${process.env.VUE_APP_BACKEND_URL}/clients/${clientId}`)
-        .then(() => {
-          this.clients = this.clients.filter(client => client.id != clientId);
-        });
+      this.$store.dispatch("clients/deleteClient", clientId);
     },
+
     saveValue(client, key, value) {
-      console.log("client, key, value", client, key, value);
       const data = {};
       data[key] = value;
-      axios
-        .patch(`${process.env.VUE_APP_BACKEND_URL}/clients/${client.id}`, data)
-        .then(client => {
-          console.log(client);
-        });
+      this.$store.dispatch("clients/update", {
+        id: client.id,
+        data
+      });
     }
   }
 };
