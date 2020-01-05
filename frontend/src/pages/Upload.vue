@@ -27,25 +27,41 @@
         <tr>
           <th class="tw-border tw-border-black">Ora</th>
           <th
-            v-for="(file, index) in response"
+            v-for="(client, index) in response"
             :key="index"
             class="tw-px-3 tw-border tw-border-black tw-font-bold"
           >
-            {{ file.name }}
+            <div v-if="getClient(client.name)">
+              <div>
+                <q-badge
+                  outline
+                  color="secondary"
+                  align="middle"
+                  :label="getClient(client.name).service"
+                />
+                {{ getClient(client.name).code }}
+              </div>
+              <div class="tw-font-thin">
+                {{ getClient(client.name).name }}
+              </div>
+            </div>
+            <div v-else>
+              <div class="tw-text-red">Client not found</div>
+              <div>{{ client.name }}</div>
+            </div>
           </th>
           <th class="tw-border tw-border-black">Ora</th>
         </tr>
         <tr v-for="i in 24" :key="i">
-          <td>{{ i }}</td>
-
+          <td class="tw-font-thin">{{ i }}</td>
           <td
-            v-for="(file, index) in response"
-            :key="`${file.name}.${index}`"
-            class="tw-text-sm"
+            v-for="(client, index) in response"
+            :key="`${client.name}.${index}`"
+            class="tw-text-sm hover:tw-bg-green-200"
           >
-            {{ file.values[i - 1] }}
+            {{ client.values[i - 1] }}
           </td>
-          <td>{{ i }}</td>
+          <td class="tw-font-thin">{{ i }}</td>
         </tr>
       </table>
 
@@ -66,8 +82,9 @@
 </template>
 
 <script>
-// import axios from "axios";
+import axios from "axios";
 import moment from "moment";
+
 export default {
   data() {
     return {
@@ -79,6 +96,9 @@ export default {
 
   mounted() {
     this.date = moment().format("YYYY/MM/DD");
+    axios.get(`${process.env.VUE_APP_BACKEND_URL}/clients`).then(res => {
+      this.clients = res.data;
+    });
   },
 
   computed: {
@@ -88,11 +108,35 @@ export default {
   },
 
   methods: {
-    uploaded({ files, xhr }) {
-      this.response = JSON.parse(xhr.response);
-      console.log(files, xhr);
+    getClient(client) {
+      const index = this.clients.findIndex(c => {
+        console.log(c, client);
+        return c.code == client || c.name == client;
+      });
+      if (index != -1) {
+        return this.clients[index];
+      }
+      return null;
     },
-    addData() {}
+    uploaded({ xhr }) {
+      this.response = JSON.parse(xhr.response);
+    },
+    addData() {
+      const dataWithClients = this.response.map(client => {
+        return {
+          ...client,
+          client: this.getClient(client.name)
+        };
+      });
+      axios
+        .put(`${process.env.VUE_APP_BACKEND_URL}/values`, {
+          clients: dataWithClients,
+          date: this.date
+        })
+        .then(res => {
+          console.log(res);
+        });
+    }
   }
 };
 </script>

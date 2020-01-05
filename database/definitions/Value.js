@@ -1,9 +1,15 @@
-'use strict';
+"use strict";
 
-const DataTypes = require('sequelize');
+const DataTypes = require("sequelize");
 
 module.exports = {
-    client: DataTypes.INTEGER,
-    date: DataTypes.STRING(20),
-    values: DataTypes.TEXT,
+  client: {
+    type: DataTypes.INTEGER,
+    unique: "clientDate"
+  },
+  date: {
+    type: DataTypes.STRING(20),
+    unique: "clientDate"
+  },
+  values: DataTypes.TEXT
 };

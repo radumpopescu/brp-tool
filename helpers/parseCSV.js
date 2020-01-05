@@ -25,7 +25,7 @@ class parseCSV {
             if (lineIndex == 0) {
               return;
             }
-            obj.values.push(line[clientIndex]);
+            obj.values.push(parseInt(line[clientIndex]));
           });
 
           acc.push(obj);
