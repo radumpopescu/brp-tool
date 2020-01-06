@@ -34,76 +34,14 @@
               >({{ ago(dates[selectedDate]) }})</span
             >
           </div>
-          <value-table />
-          <table>
-            <tr>
-              <th class="tw-border tw-border-black">Ora</th>
-              <th
-                v-for="(file, index) in currentFiles"
-                :key="`file${index}`"
-                :colspan="Object.keys(file.lines).length"
-                class="tw-px-3 tw-border tw-border-black tw-font-bold"
-              >
-                {{ file.name }}
-              </th>
-              <th class="tw-border tw-border-black">Ora</th>
-            </tr>
-            <tr>
-              <th class="tw-border tw-border-black"></th>
-              <template v-for="file in currentFiles">
-                <th
-                  v-for="(line, index) in Object.keys(file.lines)"
-                  :key="`fileline${file.name}${index}`"
-                  class="tw-border tw-border-black tw-font-thin tw-cursor-pointer"
-                  :class="{
-                    'tw-bg-green-200':
-                      file.name == hoveredLine.fileName &&
-                      line == hoveredLine.line
-                  }"
-                  @click="copyClipboard(file.name, line)"
-                  @mouseover="hoveredLine = { fileName: file.name, line }"
-                  @mouseleave="hoveredLine = {}"
-                >
-                  {{ line }}
-                </th>
-              </template>
-              <th class="tw-border tw-border-black"></th>
-            </tr>
-            <tr v-for="i in 24" :key="i">
-              <td>{{ i }}</td>
-              <template v-for="file in currentFiles">
-                <td
-                  v-for="(lineName, index) in Object.keys(file.lines)"
-                  :key="`file${file.name}.${index}`"
-                  class="tw-text-sm tw-cursor-pointer"
-                  :class="{
-                    'tw-bg-red-600': difference(file.name, lineName, i - 1),
-                    'tw-bg-green-200':
-                      file.name == hoveredLine.fileName &&
-                      lineName == hoveredLine.line
-                  }"
-                  @click="copyClipboard(file.name, lineName)"
-                  @mouseover="
-                    hoveredLine = { fileName: file.name, line: lineName }
-                  "
-                  @mouseleave="hoveredLine = {}"
-                >
-                  <span
-                    v-if="difference(file.name, lineName, i - 1)"
-                    class="tw-line-through tw-text-red-300 tw-mr-1"
-                    >{{ previousValue(file.name, lineName, i - 1) }}</span
-                  >
-                  {{ currentValue(file.name, lineName, i - 1) }}
-                </td>
-              </template>
-              <td>{{ i }}</td>
-            </tr>
-          </table>
-
-          <div class="tw-mt-2 tw-text-green-800">
+          <div v-for="(file, index) in currentFiles" :key="index">
+            <div class="tw-font-bold tw-mb-2 tw-mt-8">{{ file.name }}</div>
+            <value-table :values="fileValues(file)" :show-service="false" />
+          </div>
+          <div class="tw-mt-2 tw-mb-8 tw-text-green-800">
             Datele din coloana pot fi copiate in clipboard apasand pe
             aceasta.<br />
-            Va rugam folositi Google Chrome.
+            Va rog folositi Google Chrome.
           </div>
         </div>
       </q-page>
@@ -129,8 +67,7 @@ export default {
     return {
       dates: [],
       files: {},
-      selectedDate: null,
-      hoveredLine: {}
+      selectedDate: null
     };
   },
 
@@ -194,20 +131,22 @@ export default {
 
     ago(date) {
       return moment(date).fromNow();
+    },
+
+    fileValues(file) {
+      return Object.keys(file.lines).map(name => {
+        return {
+          name,
+          values: file.lines[name].map(val => parseFloat(val)),
+          updates: file.lines[name].map((val, index) => {
+            if (this.difference(file.name, name, index)) {
+              return this.previousValue(file.name, name, index);
+            }
+            return "";
+          })
+        };
+      });
     }
   }
 };
 </script>
-
-<style>
-* {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-}
-td,
-th {
-  border: 1px solid #ddd;
-  padding: 0 8px;
-  text-align: center;
-}
-</style>

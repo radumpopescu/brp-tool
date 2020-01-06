@@ -13,7 +13,12 @@
       <tbody>
         <tr v-for="client in clients" :key="client.id">
           <td>{{ client.id }}</td>
-          <td class="cursor-pointer">
+          <td
+            class="cursor-pointer"
+            :class="{
+              'tw-bg-red-200': !client.service
+            }"
+          >
             {{ client.service }}
             <span v-if="!client.service">...</span>
             <q-popup-edit
@@ -34,9 +39,14 @@
               />
             </q-popup-edit>
           </td>
-          <td class="cursor-pointer">
-            {{ client.code }}
-            <span v-if="!client.code">...</span>
+          <td
+            class="cursor-pointer"
+            :class="{
+              'tw-bg-red-200': !client.code
+            }"
+          >
+            <span class="tw-underline">{{ client.code }}</span>
+            <span class="tw-underline" v-if="!client.code">...</span>
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
@@ -51,9 +61,14 @@
               <q-input v-model="temp" label="Code" />
             </q-popup-edit>
           </td>
-          <td class="cursor-pointer">
-            {{ client.name }}
-            <span v-if="!client.name">...</span>
+          <td
+            class="cursor-pointer"
+            :class="{
+              'tw-bg-red-200': !client.name
+            }"
+          >
+            <span class="tw-underline">{{ client.name }}</span>
+            <span class="tw-underline" v-if="!client.name">...</span>
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
@@ -68,9 +83,14 @@
               <q-input v-model="temp" label="Name" />
             </q-popup-edit>
           </td>
-          <td class="cursor-pointer">
-            {{ client.xml_name }}
-            <span v-if="!client.xml_name">...</span>
+          <td
+            class="cursor-pointer"
+            :class="{
+              'tw-bg-red-200': !client.xml_name
+            }"
+          >
+            <span class="tw-underline">{{ client.xml_name }}</span>
+            <span class="tw-underline" v-if="!client.xml_name">...</span>
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons
@@ -85,9 +105,14 @@
               <q-input v-model="temp" label="XML Name" />
             </q-popup-edit>
           </td>
-          <td class="cursor-pointer">
-            {{ client.platform_id }}
-            <span v-if="!client.platform_id">...</span>
+          <td
+            class="cursor-pointer"
+            :class="{
+              'tw-bg-red-200': !client.platform_id
+            }"
+          >
+            <span class="tw-underline">{{ client.platform_id }}</span>
+            <span class="tw-underline" v-if="!client.platform_id">...</span>
             <q-popup-edit
               content-style="{ width: '3em' }"
               buttons

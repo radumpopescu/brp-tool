@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-drawer show-if-above side="left" bordered>
-      <div class="tw-bg-green-100">
+      <div v-if="dates" class="tw-bg-green-100">
         <div
           v-for="(date, index) in Object.keys(dates)"
           :key="index"

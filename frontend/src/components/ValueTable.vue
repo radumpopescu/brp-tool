@@ -5,12 +5,21 @@
       <td v-for="i in 24" :key="i" class="tw-font-thin">{{ i }}</td>
     </tr>
     <tr v-for="(value, index) in values" :key="index">
-      <th class="tw-px-4">
+      <th
+        class="tw-px-4 tw-cursor-pointer"
+        :class="{
+          'tw-bg-green-200': index == hoveredLine
+        }"
+        @click="copyClipboard(index)"
+        @mouseover="hoveredLine = index"
+        @mouseleave="hoveredLine = null"
+      >
         <div v-if="getClient(value)">
           <div>
             <q-badge
+              v-if="showService"
               outline
-              color="secondary"
+              :color="getClient(value).service == 'ciga' ? 'blue' : 'orange'"
               align="middle"
               :label="getClient(value).service"
             />
@@ -21,11 +30,30 @@
           </div>
         </div>
         <div v-else>
-          <div class="tw-text-red">Client not found</div>
+          <!-- <div v-if="value.name != 'Total'" class="tw-text-red-800"> -->
+          <!-- Client not found -->
+          <!-- </div> -->
           <div>{{ value.name }}</div>
         </div>
       </th>
-      <td v-for="i in 24" :key="i" class="tw-text-sm hover:tw-bg-green-200">
+      <td
+        v-for="i in 24"
+        :key="i"
+        class="tw-text-sm tw-cursor-pointer hover:tw-bg-green-400"
+        :class="{
+          'tw-bg-red-200':
+            values[index].updates && values[index].updates[i - 1] !== '',
+          'tw-bg-green-200': index == hoveredLine
+        }"
+        @click="copyClipboard(index)"
+        @mouseover="hoveredLine = index"
+        @mouseleave="hoveredLine = null"
+      >
+        <span
+          v-if="values[index].updates && values[index].updates[i - 1] !== ''"
+          class="tw-line-through tw-text-red-700 tw-mr-1"
+          >{{ values[index].updates[i - 1] }}</span
+        >
         {{ value.values[i - 1] }}
       </td>
     </tr>
@@ -72,7 +100,17 @@ export default {
     values: {
       type: Array,
       required: true
+    },
+    showService: {
+      type: Boolean,
+      default: true
     }
+  },
+
+  data() {
+    return {
+      hoveredLine: null
+    };
   },
 
   computed: {
@@ -93,15 +131,11 @@ export default {
       return null;
     },
 
-    copyClipboard(file, line) {
-      const values = [];
-
-      for (let i = 0; i < 24; i++) {
-        values.push(this.currentValue(file, line, i));
-      }
-
-      copyToClipboard(values.join("\n "));
-      toastr.success(`Datele pentru ${line} au fost copiate in clipboard`);
+    copyClipboard(index) {
+      copyToClipboard(this.values[index].values.join("\n "));
+      toastr.success(
+        `Datele pentru ${this.values[index].name} au fost copiate in clipboard`
+      );
     }
   }
 };
